@@ -710,3 +710,43 @@ html {
     grid-row: 1 / span 2;
   }
 }
+
+/* ---------- Trademark marks ---------- */
+.tm {
+  font-family: var(--font-body);
+  font-weight: 500;
+  font-size: 0.42em;
+  line-height: 0;
+  vertical-align: super;
+  letter-spacing: 0;
+  margin-left: 0.1em;
+  white-space: nowrap;
+}
+.brand__name .tm,
+.muted .tm,
+p .tm {
+  font-size: 0.6em;
+}
+.logo-tm {
+  position: relative;
+  display: inline-flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.logo-tm .tm {
+  vertical-align: baseline;
+  line-height: 1;
+  font-size: 7px;
+  margin-left: 2px;
+  color: var(--color-text-muted);
+}
+.logo-tm--lockup .tm {
+  position: absolute;
+  top: 2%;
+  right: -0.4rem;
+  font-size: 0.72rem;
+  margin: 0;
+}
+.site-footer .legal--tm {
+  margin-top: var(--space-2);
+}
