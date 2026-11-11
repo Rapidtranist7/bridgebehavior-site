@@ -740,13 +740,6 @@ p .tm {
   margin-left: 2px;
   color: var(--color-text-muted);
 }
-.logo-tm--lockup .tm {
-  position: absolute;
-  top: 2%;
-  right: -0.4rem;
-  font-size: 0.72rem;
-  margin: 0;
-}
 .site-footer .legal--tm {
   margin-top: var(--space-2);
 }
